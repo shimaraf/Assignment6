@@ -1,0 +1,3 @@
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Release\HW2.Properties.Resources.resources
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Release\HW2.UI.Form1.resources
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Release\HW2.csproj.GenerateResource.Cache

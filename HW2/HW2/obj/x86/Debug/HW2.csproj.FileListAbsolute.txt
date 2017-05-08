@@ -1,0 +1,18 @@
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Debug\HW2.Properties.Resources.resources
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Debug\HW2.UI.Form1.resources
+C:\Users\Nima\AppData\Local\Temporary Projects\HW2\obj\x86\Debug\HW2.csproj.GenerateResource.Cache
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.Properties.Resources.resources
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.csproj.GenerateResource.Cache
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\bin\Debug\HW2.exe.config
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\bin\Debug\HW2.exe
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\bin\Debug\HW2.pdb
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.exe
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.pdb
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\bin\Debug\UI\Dbhw2.mdf
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\bin\Debug\UI\Dbhw2_log.ldf
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.csprojResolveAssemblyReference.cache
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.UI.FRMlog.resources
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.UI.FRMmain.resources
+C:\Users\Nima\documents\visual studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.UI.FRMregister.resources
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.UI.FRMdtgrid.resources
+C:\Users\Nima\Documents\Visual Studio 2010\Projects\HW2\HW2\obj\x86\Debug\HW2.UI.showlistdg.resources

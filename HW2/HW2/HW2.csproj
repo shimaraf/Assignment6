@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E196522-DD2F-4E19-BC72-B17F5193BD8A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HW2</RootNamespace>
+    <AssemblyName>HW2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUSSINESS\Class1_Addform.cs" />
+    <Compile Include="BUSSINESS\class_addcourse.cs" />
+    <Compile Include="BUSSINESS\student.cs" />
+    <Compile Include="DATAACCESS\Addcourse.cs" />
+    <Compile Include="DATAACCESS\Addform.cs" />
+    <Compile Include="DATAACCESS\addstu.cs" />
+    <Compile Include="DATAACCESS\Dgrid.cs" />
+    <Compile Include="DATAACCESS\dgshow.cs" />
+    <Compile Include="DATAACCESS\login.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Dbhw2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dbhw2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UI\showlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\showlist.Designer.cs">
+      <DependentUpon>showlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FRMdtgrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FRMdtgrid.Designer.cs">
+      <DependentUpon>FRMdtgrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FRMregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FRMregister.Designer.cs">
+      <DependentUpon>FRMregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FRMlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FRMlog.Designer.cs">
+      <DependentUpon>FRMlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FRMmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FRMmain.Designer.cs">
+      <DependentUpon>FRMmain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\FRMdtgrid.resx">
+      <DependentUpon>FRMdtgrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FRMregister.resx">
+      <DependentUpon>FRMregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FRMlog.resx">
+      <DependentUpon>FRMlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FRMmain.resx">
+      <DependentUpon>FRMmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\showlist.resx">
+      <DependentUpon>showlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UI\Dbhw2DataSet.xsc">
+      <DependentUpon>Dbhw2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UI\Dbhw2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dbhw2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UI\Dbhw2DataSet.xss">
+      <DependentUpon>Dbhw2DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\create-account_318-31332.jpg" />
+    <None Include="Resources\create-a-new-account-327946.png" />
+    <None Include="Resources\new.png" />
+    <Content Include="UI\Dbhw2.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\Dbhw2_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Dbhw2.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
